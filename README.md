@@ -22,5 +22,5 @@ Step-by-step instructions to install the project:
     ```bash
       cd WebPage
 
-     ```bash
+    
        npm i
