@@ -1,0 +1,98 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f3f3;
+  
+}
+#text-section, p, strong {
+  color: #fff;
+}
+
+.options {
+  background-color: #1e88e5; /* Blue background for navigation */
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  font-size: larger;
+  
+}
+
+.option {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.option:hover {
+  background-color: #005cb2; 
+  /* Darker blue background on hover */
+}
+
+.Heading {
+  background-color: #d32f2f; /* Red header background */
+  color: #fff;
+  padding: 1px;
+  text-align: center;
+}
+
+.picture-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Html/pic1.jpeg'); /* Changed the background image path */
+  background-size: cover;
+  background-position: center;
+  
+
+}
+
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #4caf50; /* Green heading color */
+}
+
+
+/* Custom styles for clearer and bolder font in the introduction section */
+#section1 p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #333; /* Dark footer background */
+  color: #fff;
+  padding: 10px 0;
+}
+#text-section2 {
+  position: relative;
+  font-size: xx-large;
+  left: 0;
+  animation: slideRight 10s linear infinite; 
+}
+
+@keyframes slideRight {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%; 
+  }
+}

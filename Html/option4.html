@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="../CSS/option4.css">
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="options">
+    <a href="option1.html" class="option">Home</a>
+    <a href="option2.html" class="option">Hobbies</a>
+    <a href="option3.html" class="option">Education and Experiences</a>
+    <a href="option4.html" class="option">Contact Information</a>
+  </div>
+
+  <header class="Heading">
+    <h1>Contact Information</h1>
+  </header>
+
+  <main>
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <p>Add your contact information here, such as your email, phone number, address, etc.</p>
+      <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/rajiv-dhakal-5761911b3/" target="_blank">Rajiv Dhakal</a></p>
+      <p>View my GitHub profile: <a href="https://github.com/dhakal07" target="_blank">dhakal07</a></p>
+    </section>
+
+    <section id="message">
+      <h2>Send Messages</h2>
+      <form id="message-form" action="/message" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message-text" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 YourWebsiteName. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript to handle form submission -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/node-fetch/2.6.1/fetch.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
