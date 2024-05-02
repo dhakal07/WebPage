@@ -19,5 +19,8 @@ Step-by-step instructions to install the project:
    git clone https://github.com/dhakal07/WebPage.git
 
 2. Bash
-   cd WebPage
-   npm i
+    ```bash
+      cd WebPage
+
+     ```bash
+       npm i
